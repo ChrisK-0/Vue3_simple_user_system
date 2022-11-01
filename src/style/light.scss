@@ -1,0 +1,30 @@
+.light {
+    color: #fff !important;
+    background-color: #fff !important;
+
+    * {
+        color: #fff !important;
+        background-color: #fff !important;
+
+        * {
+            color: #fff !important;
+            background-color: #fff !important;
+        }
+    }
+}
+
+#themeBtn {
+    padding: 4px 6px;
+
+    &.light {
+        color: #000 !important;
+        background-color: #fff !important;
+        border: 2px solid #000;
+    }
+
+    &.dark {
+        color: #fff !important;
+        background-color: #000 !important;
+        border: 2px solid #fff;
+    }
+}
